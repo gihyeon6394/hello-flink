@@ -9,8 +9,6 @@
 Apache Flink는 무한(unbounded) 및 유한(bounded) 데이터 스트림을 대상으로 상태를 가지는 연산(stateful computations) 을 수행하기 위한 프레임워크이자 분산 처리 엔진입니다.
 Flink는 모든 일반적인 클러스터 환경에서 실행될 수 있도록 설계되었으며, 메모리 기반 속도로 대규모 스케일의 연산을 수행할 수 있습니다.
 
-- About
-
 # What is Apache Flink? — Architecture
 
 Apache Flink는 **무한(unbounded) 및 유한(bounded) 데이터 스트림**을 대상으로 **상태 기반(stateful) 연산**을 수행하기 위한 프레임워크이자 분산 처리 엔진이다.  
@@ -72,3 +70,8 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
 - 메모리 초과 시에도 디스크 기반 고효율 자료구조 사용
 - 대부분의 연산이 로컬(주로 메모리) 상태 접근으로 수행되어 매우 낮은 지연시간 제공
 - 주기적·비동기 체크포인팅을 통해 장애 시에도 Exactly-Once 상태 보장
+
+### 목차
+
+- About
+  - [Applications](applications/README.md)
