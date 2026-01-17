@@ -83,3 +83,4 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
     - [Intro to the DataStream API](learn-flink/intro-to-the-datastream-api.md)
     - [Data Pipelines & ETL](learn-flink/data-pipelines-and-etl.md)
     - [Strategies for State Management](learn-flink/strategies-for-state-management.md)
+    - [Event-driven Applications](learn-flink/event-driven-applications.md)
