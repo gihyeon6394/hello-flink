@@ -88,3 +88,5 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
 - [Overview](overview/README.md)
 - [Stateful Streaming Processing](stateful-streaming-processing/README.md)
 - [Fault Tolerance](fault-tolerance/README.md)
+- Application Development
+  - [Project Configuration](application-development/project-configuration.md)
