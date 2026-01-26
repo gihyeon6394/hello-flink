@@ -110,3 +110,4 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
         - [Data Sinks](application-development/datastream-api/data-sinks.md)
         - [Side Outputs](application-development/datastream-api/side-outputs.md)
         - [Handling Application Parameters](application-development/datastream-api/handling-application-parameters.md)
+        - [Testing](application-development/datastream-api/testing.md)
