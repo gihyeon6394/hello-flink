@@ -107,3 +107,4 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
         - [User-Defined Functions (UDFs)](application-development/datastream-api/user-defined-functions-udfs.md)
         - [Operators](application-development/datastream-api/operators.md)
         - [Data Sources](application-development/datastream-api/data-sources.md)
+        - [Data Sinks](application-development/datastream-api/data-sinks.md)
