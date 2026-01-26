@@ -74,10 +74,10 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
 ### 목차
 
 - About
-  - [Applications](applications/README.md)
-  - [Operations](operations/README.md)
-  - [Use Cases](use-cases/README.md)
-  - [Roadmap](roadmap/README.md)
+    - [Applications](applications/README.md)
+    - [Operations](operations/README.md)
+    - [Use Cases](use-cases/README.md)
+    - [Roadmap](roadmap/README.md)
 - Learn Flink
     - [Overview](learn-flink/README.md)
     - [Intro to the DataStream API](learn-flink/intro-to-the-datastream-api.md)
@@ -89,5 +89,20 @@ Flink의 상태 기반 애플리케이션은 **로컬 상태 접근**에 최적�
 - [Stateful Streaming Processing](stateful-streaming-processing/README.md)
 - [Fault Tolerance](fault-tolerance/README.md)
 - Application Development
-  - [Project Configuration](application-development/project-configuration.md)
-  - [DataStream API](application-development/datastream-api.md)
+    - [Project Configuration](application-development/project-configuration.md)
+    - DataStream API
+        - [Overview](application-development/datastream-api/overview.md)
+        - [Execution Mode (Batch/Streaming)](application-development/datastream-api/execution-mode-batch-streaming.md)
+        - Event Time
+            - [Generating Watermarks](application-development/datastream-api/event-time/generating-watermarks.md)
+            - [Builtin Watermark Generators](application-development/datastream-api/event-time/builtin-watermark-generators.md)
+        - State & Fault Tolerance
+            - [State TTL Migration Compatibility](application-development/datastream-api/state-and-fault-tolerance/state-ttl-migration-compatibility.md)
+            - [Working with State](application-development/datastream-api/state-and-fault-tolerance/working-with-state.md)
+            - [Working with State V2 (New APIs)](application-development/datastream-api/state-and-fault-tolerance/working-with-state-v2-new-apis.md)
+            - [The Broadcast State Pattern](application-development/datastream-api/state-and-fault-tolerance/the-broadcast-state-pattern.md)
+            - [Checkpointing](application-development/datastream-api/state-and-fault-tolerance/checkpointing.md)
+            - [State Backends](application-development/datastream-api/state-and-fault-tolerance/state-backends.md)
+            - [Data Types & Serialization](application-development/datastream-api/state-and-fault-tolerance/data-types-and-serialization.md)
+        - [User-Defined Functions (UDFs)](application-development/datastream-api/user-defined-functions-udfs.md)
+        - [Operators](application-development/datastream-api/operators.md)
